@@ -138,10 +138,8 @@ jobs:
 
       - name: Show final build config preview
         run: |
-          echo "===== INPUT PREVIEW ====="
           echo "UPLOAD_RELEASE=$UPLOAD_RELEASE"
           echo "DEFAULT_IP=${DEFAULT_IP:-192.168.1.1}"
-          echo "========================="
 
       - name: Build firmware
         run: |

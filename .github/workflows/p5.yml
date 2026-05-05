@@ -134,7 +134,7 @@ jobs:
       - name: Load RPI5 config
         run: |
           echo "Loading RPI5 base config only..."
-          cp extra/RPI5.config .config
+          cp .seed .config
 
       - name: Show final build config preview
         run: |
